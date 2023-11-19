@@ -7,8 +7,8 @@
         @foreach ($products as $product)
             <div class="card">
                 <div class="image-box">
-                    <img class="first-img" src="{{ $product["frontImage"] }}" alt="">
-                    <img class="second-img" src="{{ $product["backImage"] }}" alt="">
+                    <img class="first-img" src="/img/{{ $product["frontImage"] }}" alt="">
+                    <img class="second-img" src="/img/{{ $product["backImage"] }}" alt="">
 
                     @if(isset($product["badges"]))
                         @foreach($product["badges"] as $badge)

@@ -7,7 +7,7 @@
                 <li>Bambini</li>
             </ul>
 
-            <img src="/public/boolean-logo.png" alt="logo">
+            <img src="/boolean-logo.png" alt="logo">
 
             <ul class="icons">
                 <li><i class="fa-regular fa-user"></i></li>
