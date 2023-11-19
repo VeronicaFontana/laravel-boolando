@@ -18,4 +18,9 @@ Route::get('/', function () {
     $products = config("products");
 
     return view('home', compact("products"));
-});
+})->name("home");
+
+Route::get('/profilo', function () {
+    return view('user');
+})->name("user");
+
