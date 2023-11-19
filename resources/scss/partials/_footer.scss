@@ -1,0 +1,49 @@
+.bottom-bar{
+    background-color: $bottom-bar-bg;
+    display: flex;
+    justify-content: center;
+    .bottom-menu{
+        height: 70px;
+        max-width: 1200px;
+        width: 98%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .legal-info{
+            span{
+            font-weight: bold;
+            }
+            ul{
+            font-size: 0.8em;
+            li{
+                display: inline-block;
+                list-style: none;
+                padding: 5px 3px 0 0;
+            }
+            }
+        }
+        .social{
+            span{
+            font-size: 0.8em;
+            }
+            ul{
+            font-size: 0.8em;
+            li{
+                display: inline-block;
+                list-style: none;
+                padding: 5px 3px 0 0;
+
+                i{
+                color: white ;
+                font-size: 1.2rem;
+                &:hover{
+                    cursor: pointer;
+                }
+                }
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.top-bar{
+    background-color: $top-bar-bg;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px grey;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+
+    .top-menu{
+        height: 70px;
+        max-width: 1200px;
+        width: 98%;
+        color: $top-bottom-menu;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            font-weight: bold;
+            li{
+            display: inline-block;
+            list-style: none;
+            padding: 5px 3px 0 0;
+            margin: 0 5px;
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            }
+        }
+        img{
+            height: 30px;
+            width: 125px;
+        }
+    }
+}
